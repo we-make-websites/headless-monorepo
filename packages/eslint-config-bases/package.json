@@ -1,5 +1,5 @@
 {
-  "name": "@your-org/eslint-config-bases",
+  "name": "@we-make-websites/eslint-config-bases",
   "version": "1.5.1",
   "license": "MIT",
   "private": true,

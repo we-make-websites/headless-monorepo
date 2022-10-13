@@ -1,5 +1,5 @@
 {
-  "name": "@your-org/ts-utils",
+  "name": "@we-make-websites/ts-utils",
   "version": "1.1.0",
   "license": "MIT",
   "private": true,
@@ -42,7 +42,7 @@
     "@types/node": "18.8.0",
     "@vitest/coverage-istanbul": "0.23.4",
     "@vitest/ui": "0.23.4",
-    "@your-org/eslint-config-bases": "workspace:^",
+    "@we-make-websites/eslint-config-bases": "workspace:^",
     "cross-env": "7.0.3",
     "es-check": "7.0.1",
     "eslint": "8.24.0",

@@ -22,14 +22,16 @@
       "@/lib/*": ["./src/lib/*"],
       "@/routes/*": ["./src/routes/*"],
       "@/test-utils": ["./config/jest/test-utils"],
-      "@your-org/common-i18n": ["../../../packages/common-i18n/src/index"],
-      "@your-org/common-i18n/locales/*": [
+      "@we-make-websites/common-i18n": [
+        "../../../packages/common-i18n/src/index"
+      ],
+      "@we-make-websites/common-i18n/locales/*": [
         "../../../packages/common-i18n/src/locales/*"
       ],
-      "@your-org/ui-lib/*": ["../../packages/ui-lib/src/*"],
-      "@your-org/ui-lib": ["../../packages/ui-lib/src/index"],
-      "@your-org/core-lib/*": ["../../packages/core-lib/src/*"],
-      "@your-org/core-lib": ["../../packages/core-lib/src/index"]
+      "@we-make-websites/ui-lib/*": ["../../packages/ui-lib/src/*"],
+      "@we-make-websites/ui-lib": ["../../packages/ui-lib/src/index"],
+      "@we-make-websites/core-lib/*": ["../../packages/core-lib/src/*"],
+      "@we-make-websites/core-lib": ["../../packages/core-lib/src/index"]
     }
   },
   "exclude": [

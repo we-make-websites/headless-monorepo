@@ -1,7 +1,7 @@
 import { css } from '@emotion/react';
-import { sayHello } from '@your-org/core-lib';
-import { Message } from '@your-org/ui-lib';
-import { GradientText } from '@your-org/ui-lib/ux/text/GradientText';
+import { sayHello } from '@we-make-websites/core-lib';
+import { Message } from '@we-make-websites/ui-lib';
+import { GradientText } from '@we-make-websites/ui-lib/ux/text/GradientText';
 import type { FC } from 'react';
 
 export const HomePage: FC = () => {
@@ -27,9 +27,9 @@ export const HomePage: FC = () => {
           Hello
         </GradientText>
       </p>
-      <p>{`${sayHello('Hello Remix')} from @your-org/core-lib`}</p>
+      <p>{`${sayHello('Hello Remix')} from @we-make-websites/core-lib`}</p>
       <p>
-        <Message message={'React component from @your-org/ui-lib'} />
+        <Message message={'React component from @we-make-websites/ui-lib'} />
       </p>
     </div>
   );

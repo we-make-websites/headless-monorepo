@@ -1,4 +1,4 @@
-import type { UnPromisify } from '@your-org/ts-utils';
+import type { UnPromisify } from '@we-make-websites/ts-utils';
 import type { SearchPoemsQuery } from './SearchPoemsQuery';
 
 export interface SearchPoemsParams {

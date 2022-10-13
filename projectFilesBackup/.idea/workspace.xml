@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95ed6438-0e5a-47b3-9bda-8fb62ace1df9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="2le850pu" />
+  </component>
+  <component name="MajeraCodeReviewSettings">
+    <option name="processedVcsRemotes">
+      <set>
+        <StoredVcsRemote>
+          <option name="vcsRemoteUrl" value="git@github.com:belgattitude/nextjs-monorepo-example.git" />
+          <option name="vcsRootUrl" value="file://$PROJECT_DIR$" />
+        </StoredVcsRemote>
+      </set>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25ExHobCZFdQRBpvQ75vsdDZOWN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95ed6438-0e5a-47b3-9bda-8fb62ace1df9" name="Changes" comment="" />
+      <created>1645105962222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645105962222</updated>
+      <workItem from="1645105963568" duration="996000" />
+      <workItem from="1645438434022" duration="1768000" />
+      <workItem from="1645868978409" duration="1847000" />
+      <workItem from="1646062157534" duration="59000" />
+      <workItem from="1646062252918" duration="856000" />
+      <workItem from="1646064309033" duration="552000" />
+      <workItem from="1646739246763" duration="1119000" />
+      <workItem from="1646757735975" duration="1319000" />
+      <workItem from="1646996596853" duration="548000" />
+      <workItem from="1647343772035" duration="1016000" />
+      <workItem from="1647349522917" duration="2886000" />
+      <workItem from="1648047360046" duration="607000" />
+      <workItem from="1648108951819" duration="596000" />
+      <workItem from="1648110103232" duration="591000" />
+      <workItem from="1648455539395" duration="20000" />
+      <workItem from="1648642706129" duration="128000" />
+      <workItem from="1648642849455" duration="3824000" />
+      <workItem from="1648798420517" duration="6672000" />
+      <workItem from="1650792197514" duration="1647000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

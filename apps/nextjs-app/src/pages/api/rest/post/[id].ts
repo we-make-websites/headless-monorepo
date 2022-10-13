@@ -2,9 +2,12 @@ import {
   HttpBadRequest,
   HttpMethodNotAllowed,
 } from '@belgattitude/http-exception';
-import { JsonApiResponseFactory } from '@your-org/core-lib/api/json-api';
-import { JsonApiErrorFactory } from '@your-org/core-lib/api/json-api/json-api-error.factory';
-import { assertSafeInteger, stringToSafeInteger } from '@your-org/ts-utils';
+import { JsonApiResponseFactory } from '@we-make-websites/core-lib/api/json-api';
+import { JsonApiErrorFactory } from '@we-make-websites/core-lib/api/json-api/json-api-error.factory';
+import {
+  assertSafeInteger,
+  stringToSafeInteger,
+} from '@we-make-websites/ts-utils';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { PostRepositorySsr } from '@/backend/api/rest/post-repository.ssr';
 import { prismaClient } from '@/backend/config/container.config';

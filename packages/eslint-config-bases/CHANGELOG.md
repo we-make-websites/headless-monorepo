@@ -1,4 +1,4 @@
-# @your-org/eslint-config-bases
+# @we-make-websites/eslint-config-bases
 
 ## 1.5.1
 

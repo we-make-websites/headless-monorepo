@@ -1,7 +1,7 @@
 import { css } from '@emotion/react';
-import { sayHello } from '@your-org/core-lib';
-import { Message } from '@your-org/ui-lib';
-import { GradientText } from '@your-org/ui-lib/ux';
+import { sayHello } from '@we-make-websites/core-lib';
+import { Message } from '@we-make-websites/ui-lib';
+import { GradientText } from '@we-make-websites/ui-lib/ux';
 import { useState } from 'react';
 
 import './App.css';
@@ -22,14 +22,14 @@ function App() {
             Hello
           </GradientText>
         </p>
-        <p>{`${sayHello('Hello Vite')} from @your-org/core-lib`}</p>
+        <p>{`${sayHello('Hello Vite')} from @we-make-websites/core-lib`}</p>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
           </button>
         </p>
         <p>
-          <Message message={'React component from @your-org/ui-lib'} />
+          <Message message={'React component from @we-make-websites/ui-lib'} />
         </p>
       </main>
     </div>

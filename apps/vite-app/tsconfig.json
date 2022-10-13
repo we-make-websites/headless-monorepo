@@ -10,10 +10,10 @@
     "jsxImportSource": "@emotion/react",
     "incremental": true,
     "paths": {
-      "@your-org/ui-lib/*": ["../../../packages/ui-lib/src/*"],
-      "@your-org/ui-lib": ["../../../packages/ui-lib/src/index"],
-      "@your-org/core-lib/*": ["../../../packages/core-lib/src/*"],
-      "@your-org/core-lib": ["../../../packages/core-lib/src/index"]
+      "@we-make-websites/ui-lib/*": ["../../../packages/ui-lib/src/*"],
+      "@we-make-websites/ui-lib": ["../../../packages/ui-lib/src/index"],
+      "@we-make-websites/core-lib/*": ["../../../packages/core-lib/src/*"],
+      "@we-make-websites/core-lib": ["../../../packages/core-lib/src/index"]
     }
   },
   "exclude": ["**/node_modules", "**/.*/", "dist"],

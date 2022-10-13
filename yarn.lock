@@ -8521,9 +8521,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@your-org/api-gateway@workspace:^, @your-org/api-gateway@workspace:packages/api-gateway":
+"@we-make-websites/api-gateway@workspace:^, @we-make-websites/api-gateway@workspace:packages/api-gateway":
   version: 0.0.0-use.local
-  resolution: "@your-org/api-gateway@workspace:packages/api-gateway"
+  resolution: "@we-make-websites/api-gateway@workspace:packages/api-gateway"
   dependencies:
     "@graphql-mesh/cli": "npm:0.78.28"
     "@graphql-mesh/config": "npm:8.0.16"
@@ -8532,7 +8532,7 @@ __metadata:
     "@graphql-mesh/runtime": "npm:0.44.17"
     "@types/jest": "npm:29.1.1"
     "@types/node": "npm:18.8.0"
-    "@your-org/eslint-config-bases": "workspace:^"
+    "@we-make-websites/eslint-config-bases": "workspace:^"
     cross-env: "npm:7.0.3"
     eslint: "npm:8.24.0"
     graphql: "npm:16.6.0"
@@ -8547,13 +8547,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@your-org/common-i18n@workspace:^, @your-org/common-i18n@workspace:packages/common-i18n":
+"@we-make-websites/common-i18n@workspace:^, @we-make-websites/common-i18n@workspace:packages/common-i18n":
   version: 0.0.0-use.local
-  resolution: "@your-org/common-i18n@workspace:packages/common-i18n"
+  resolution: "@we-make-websites/common-i18n@workspace:packages/common-i18n"
   dependencies:
     "@types/jest": "npm:29.1.1"
     "@types/node": "npm:18.8.0"
-    "@your-org/eslint-config-bases": "workspace:^"
+    "@we-make-websites/eslint-config-bases": "workspace:^"
     cross-env: "npm:7.0.3"
     eslint: "npm:8.24.0"
     prettier: "npm:2.7.1"
@@ -8562,9 +8562,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@your-org/core-lib@workspace:^, @your-org/core-lib@workspace:packages/core-lib":
+"@we-make-websites/core-lib@workspace:^, @we-make-websites/core-lib@workspace:packages/core-lib":
   version: 0.0.0-use.local
-  resolution: "@your-org/core-lib@workspace:packages/core-lib"
+  resolution: "@we-make-websites/core-lib@workspace:packages/core-lib"
   dependencies:
     "@belgattitude/http-exception": "npm:^1.3.2"
     "@testing-library/react": "npm:13.4.0"
@@ -8576,8 +8576,8 @@ __metadata:
     "@vitejs/plugin-react": "npm:2.1.0"
     "@vitest/coverage-istanbul": "npm:0.23.4"
     "@vitest/ui": "npm:0.23.4"
-    "@your-org/eslint-config-bases": "workspace:^"
-    "@your-org/ts-utils": "workspace:^"
+    "@we-make-websites/eslint-config-bases": "workspace:^"
+    "@we-make-websites/ts-utils": "workspace:^"
     cross-env: "npm:7.0.3"
     dequal: "npm:^2.0.3"
     eslint: "npm:8.24.0"
@@ -8600,15 +8600,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@your-org/db-main-prisma@workspace:^, @your-org/db-main-prisma@workspace:packages/db-main-prisma":
+"@we-make-websites/db-main-prisma@workspace:^, @we-make-websites/db-main-prisma@workspace:packages/db-main-prisma":
   version: 0.0.0-use.local
-  resolution: "@your-org/db-main-prisma@workspace:packages/db-main-prisma"
+  resolution: "@we-make-websites/db-main-prisma@workspace:packages/db-main-prisma"
   dependencies:
     "@prisma/client": "npm:4.4.0"
     "@soluble/dsn-parser": "npm:1.6.0"
     "@types/jest": "npm:29.1.1"
     "@types/node": "npm:18.8.0"
-    "@your-org/eslint-config-bases": "workspace:^"
+    "@we-make-websites/eslint-config-bases": "workspace:^"
     camelcase: "npm:7.0.0"
     cross-env: "npm:7.0.3"
     dotenv-flow: "npm:3.2.0"
@@ -8630,9 +8630,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@your-org/eslint-config-bases@workspace:^, @your-org/eslint-config-bases@workspace:packages/eslint-config-bases":
+"@we-make-websites/eslint-config-bases@workspace:^, @we-make-websites/eslint-config-bases@workspace:packages/eslint-config-bases":
   version: 0.0.0-use.local
-  resolution: "@your-org/eslint-config-bases@workspace:packages/eslint-config-bases"
+  resolution: "@we-make-websites/eslint-config-bases@workspace:packages/eslint-config-bases"
   dependencies:
     "@rushstack/eslint-patch": "npm:^1.2.0"
     "@testing-library/jest-dom": "npm:^5.16.5"
@@ -8681,16 +8681,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@your-org/ts-utils@workspace:^, @your-org/ts-utils@workspace:packages/ts-utils":
+"@we-make-websites/ts-utils@workspace:^, @we-make-websites/ts-utils@workspace:packages/ts-utils":
   version: 0.0.0-use.local
-  resolution: "@your-org/ts-utils@workspace:packages/ts-utils"
+  resolution: "@we-make-websites/ts-utils@workspace:packages/ts-utils"
   dependencies:
     "@size-limit/file": "npm:8.1.0"
     "@types/jest": "npm:29.1.1"
     "@types/node": "npm:18.8.0"
     "@vitest/coverage-istanbul": "npm:0.23.4"
     "@vitest/ui": "npm:0.23.4"
-    "@your-org/eslint-config-bases": "workspace:^"
+    "@we-make-websites/eslint-config-bases": "workspace:^"
     cross-env: "npm:7.0.3"
     es-check: "npm:7.0.1"
     eslint: "npm:8.24.0"
@@ -8708,9 +8708,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@your-org/ui-lib@workspace:^, @your-org/ui-lib@workspace:packages/ui-lib":
+"@we-make-websites/ui-lib@workspace:^, @we-make-websites/ui-lib@workspace:packages/ui-lib":
   version: 0.0.0-use.local
-  resolution: "@your-org/ui-lib@workspace:packages/ui-lib"
+  resolution: "@we-make-websites/ui-lib@workspace:packages/ui-lib"
   dependencies:
     "@babel/core": "npm:7.19.3"
     "@emotion/babel-preset-css-prop": "npm:11.10.0"
@@ -8736,8 +8736,8 @@ __metadata:
     "@types/node": "npm:18.8.0"
     "@types/react": "npm:18.0.21"
     "@types/react-dom": "npm:18.0.6"
-    "@your-org/eslint-config-bases": "workspace:^"
-    "@your-org/ts-utils": "workspace:^"
+    "@we-make-websites/eslint-config-bases": "workspace:^"
+    "@we-make-websites/ts-utils": "workspace:^"
     autoprefixer: "npm:10.4.12"
     babel-loader: "npm:8.2.5"
     babel-plugin-macros: "npm:3.1.0"
@@ -21362,12 +21362,12 @@ __metadata:
     "@vitejs/plugin-react": "npm:2.1.0"
     "@vitest/coverage-istanbul": "npm:0.23.4"
     "@vitest/ui": "npm:0.23.4"
-    "@your-org/api-gateway": "workspace:^"
-    "@your-org/common-i18n": "workspace:^"
-    "@your-org/core-lib": "workspace:^"
-    "@your-org/db-main-prisma": "workspace:^"
-    "@your-org/ts-utils": "workspace:^"
-    "@your-org/ui-lib": "workspace:^"
+    "@we-make-websites/api-gateway": "workspace:^"
+    "@we-make-websites/common-i18n": "workspace:^"
+    "@we-make-websites/core-lib": "workspace:^"
+    "@we-make-websites/db-main-prisma": "workspace:^"
+    "@we-make-websites/ts-utils": "workspace:^"
+    "@we-make-websites/ui-lib": "workspace:^"
     apollo-server-core: "npm:3.10.2"
     apollo-server-micro: "npm:3.10.2"
     autoprefixer: "npm:10.4.12"
@@ -21437,7 +21437,7 @@ __metadata:
     "@playwright/test": "npm:1.26.1"
     "@types/prettier": "npm:2.7.1"
     "@types/shell-quote": "npm:1.7.1"
-    "@your-org/eslint-config-bases": "workspace:^"
+    "@we-make-websites/eslint-config-bases": "workspace:^"
     cross-env: "npm:7.0.3"
     eslint: "npm:8.24.0"
     husky: "npm:8.0.1"
@@ -25077,10 +25077,10 @@ __metadata:
     "@types/react": "npm:18.0.21"
     "@types/react-dom": "npm:18.0.6"
     "@vercel/node": "npm:2.5.22"
-    "@your-org/common-i18n": "workspace:^"
-    "@your-org/core-lib": "workspace:^"
-    "@your-org/eslint-config-bases": "workspace:^"
-    "@your-org/ui-lib": "workspace:^"
+    "@we-make-websites/common-i18n": "workspace:^"
+    "@we-make-websites/core-lib": "workspace:^"
+    "@we-make-websites/eslint-config-bases": "workspace:^"
+    "@we-make-websites/ui-lib": "workspace:^"
     autoprefixer: "npm:10.4.12"
     eslint: "npm:8.24.0"
     jest: "npm:29.1.2"
@@ -29079,10 +29079,10 @@ __metadata:
     "@vitejs/plugin-react": "npm:2.1.0"
     "@vitest/coverage-istanbul": "npm:0.23.4"
     "@vitest/ui": "npm:0.23.4"
-    "@your-org/common-i18n": "workspace:^"
-    "@your-org/core-lib": "workspace:^"
-    "@your-org/eslint-config-bases": "workspace:^"
-    "@your-org/ui-lib": "workspace:^"
+    "@we-make-websites/common-i18n": "workspace:^"
+    "@we-make-websites/core-lib": "workspace:^"
+    "@we-make-websites/eslint-config-bases": "workspace:^"
+    "@we-make-websites/ui-lib": "workspace:^"
     eslint: "npm:8.24.0"
     happy-dom: "npm:7.0.0"
     prettier: "npm:2.7.1"

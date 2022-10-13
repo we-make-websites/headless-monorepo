@@ -5,41 +5,41 @@
 ### Patch Changes
 
 - Updated dependencies [[`e279d984`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e279d984d01937264b077a111863b38d15fcb1d0)]:
-  - @your-org/core-lib@3.15.0
-  - @your-org/ui-lib@3.15.0
+  - @we-make-websites/core-lib@3.15.0
+  - @we-make-websites/ui-lib@3.15.0
 
 ## 1.10.8
 
 ### Patch Changes
 
 - Updated dependencies [[`f2339d6e`](https://github.com/belgattitude/nextjs-monorepo-example/commit/f2339d6e62d844a1267c416d09110198e4f2af59)]:
-  - @your-org/common-i18n@1.2.0
+  - @we-make-websites/common-i18n@1.2.0
 
 ## 1.10.7
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @your-org/common-i18n@1.1.1
-  - @your-org/core-lib@3.14.2
-  - @your-org/ui-lib@3.14.5
+  - @we-make-websites/common-i18n@1.1.1
+  - @we-make-websites/core-lib@3.14.2
+  - @we-make-websites/ui-lib@3.14.5
 
 ## 1.10.6
 
 ### Patch Changes
 
 - Updated dependencies [[`2fc498cc`](https://github.com/belgattitude/nextjs-monorepo-example/commit/2fc498cc928c9a577fa4c4a0112f910e0c24f176)]:
-  - @your-org/core-lib@3.14.2
-  - @your-org/ui-lib@3.14.4
+  - @we-make-websites/core-lib@3.14.2
+  - @we-make-websites/ui-lib@3.14.4
 
 ## 1.10.5
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @your-org/common-i18n@1.1.1
-  - @your-org/core-lib@3.14.1
-  - @your-org/ui-lib@3.14.3
+  - @we-make-websites/common-i18n@1.1.1
+  - @we-make-websites/core-lib@3.14.1
+  - @we-make-websites/ui-lib@3.14.3
 
 ## 1.10.4
 
@@ -48,34 +48,34 @@
 - [#2214](https://github.com/belgattitude/nextjs-monorepo-example/pull/2214) [`62818ba`](https://github.com/belgattitude/nextjs-monorepo-example/commit/62818badff67ce032a209fe9217c319271833ddc) Thanks [@belgattitude](https://github.com/belgattitude)! - Speedup and clean yarn install on CI
 
 - Updated dependencies [[`62818ba`](https://github.com/belgattitude/nextjs-monorepo-example/commit/62818badff67ce032a209fe9217c319271833ddc)]:
-  - @your-org/common-i18n@1.1.1
-  - @your-org/core-lib@3.14.1
-  - @your-org/ui-lib@3.14.2
+  - @we-make-websites/common-i18n@1.1.1
+  - @we-make-websites/core-lib@3.14.1
+  - @we-make-websites/ui-lib@3.14.2
 
 ## 1.10.3
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @your-org/common-i18n@1.1.0
-  - @your-org/core-lib@3.14.0
-  - @your-org/ui-lib@3.14.1
+  - @we-make-websites/common-i18n@1.1.0
+  - @we-make-websites/core-lib@3.14.0
+  - @we-make-websites/ui-lib@3.14.1
 
 ## 1.10.2
 
 ### Patch Changes
 
 - Updated dependencies [[`31ac0da`](https://github.com/belgattitude/nextjs-monorepo-example/commit/31ac0da08875ece918777fa54379e7b2e4c4286f)]:
-  - @your-org/ui-lib@3.14.0
+  - @we-make-websites/ui-lib@3.14.0
 
 ## 1.10.1
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @your-org/common-i18n@1.1.0
-  - @your-org/core-lib@3.14.0
-  - @your-org/ui-lib@3.13.1
+  - @we-make-websites/common-i18n@1.1.0
+  - @we-make-websites/core-lib@3.14.0
+  - @we-make-websites/ui-lib@3.13.1
 
 ## 1.10.0
 
@@ -86,36 +86,36 @@
 ### Patch Changes
 
 - Updated dependencies [[`5ad462a`](https://github.com/belgattitude/nextjs-monorepo-example/commit/5ad462a9a621564366c7a0ef0a77899fc855de85)]:
-  - @your-org/common-i18n@1.1.0
-  - @your-org/core-lib@3.14.0
-  - @your-org/ui-lib@3.13.0
+  - @we-make-websites/common-i18n@1.1.0
+  - @we-make-websites/core-lib@3.14.0
+  - @we-make-websites/ui-lib@3.13.0
 
 ## 1.9.0
 
 ### Minor Changes
 
-- [#1727](https://github.com/belgattitude/nextjs-monorepo-example/pull/1727) [`a844907`](https://github.com/belgattitude/nextjs-monorepo-example/commit/a8449073efa6d1311ab9c51f9cacd451fafff3f4) Thanks [@belgattitude](https://github.com/belgattitude)! - Example and howto consume shared locales from @your-org/common-i18n
+- [#1727](https://github.com/belgattitude/nextjs-monorepo-example/pull/1727) [`a844907`](https://github.com/belgattitude/nextjs-monorepo-example/commit/a8449073efa6d1311ab9c51f9cacd451fafff3f4) Thanks [@belgattitude](https://github.com/belgattitude)! - Example and howto consume shared locales from @we-make-websites/common-i18n
 
 ### Patch Changes
 
 - Updated dependencies [[`a844907`](https://github.com/belgattitude/nextjs-monorepo-example/commit/a8449073efa6d1311ab9c51f9cacd451fafff3f4)]:
-  - @your-org/common-i18n@1.0.0
+  - @we-make-websites/common-i18n@1.0.0
 
 ## 1.8.2
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @your-org/core-lib@3.13.0
-  - @your-org/ui-lib@3.12.2
+  - @we-make-websites/core-lib@3.13.0
+  - @we-make-websites/ui-lib@3.12.2
 
 ## 1.8.1
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @your-org/core-lib@3.13.0
-  - @your-org/ui-lib@3.12.1
+  - @we-make-websites/core-lib@3.13.0
+  - @we-make-websites/ui-lib@3.12.1
 
 ## 1.8.0
 
@@ -126,16 +126,16 @@
 ### Patch Changes
 
 - Updated dependencies [[`9f2c2d0`](https://github.com/belgattitude/nextjs-monorepo-example/commit/9f2c2d049cfb87a3023a38b096f07f998862e3f6)]:
-  - @your-org/core-lib@3.13.0
-  - @your-org/ui-lib@3.12.0
+  - @we-make-websites/core-lib@3.13.0
+  - @we-make-websites/ui-lib@3.12.0
 
 ## 1.7.1
 
 ### Patch Changes
 
 - Updated dependencies [[`ee0a3db`](https://github.com/belgattitude/nextjs-monorepo-example/commit/ee0a3dbd664c33d7149302ae3f776951dbd50492)]:
-  - @your-org/core-lib@3.12.0
-  - @your-org/ui-lib@3.11.0
+  - @we-make-websites/core-lib@3.12.0
+  - @we-make-websites/ui-lib@3.11.0
 
 ## 1.7.0
 
@@ -164,7 +164,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`e269ada4`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e269ada479151a243128612278bc0d5642e6db04), [`82e77f7c`](https://github.com/belgattitude/nextjs-monorepo-example/commit/82e77f7ce8a8fda3db16796685c817cb142114bb)]:
-  - @your-org/ui-lib@3.10.0
+  - @we-make-websites/ui-lib@3.10.0
 
 ## 1.3.0
 
@@ -177,22 +177,22 @@
 ### Patch Changes
 
 - Updated dependencies [[`05291de7`](https://github.com/belgattitude/nextjs-monorepo-example/commit/05291de7deeed720e8b7271d339050116b448177)]:
-  - @your-org/core-lib@3.11.0
-  - @your-org/ui-lib@3.9.0
+  - @we-make-websites/core-lib@3.11.0
+  - @we-make-websites/ui-lib@3.9.0
 
 ## 1.2.2
 
 ### Patch Changes
 
 - Updated dependencies [[`50e79d76`](https://github.com/belgattitude/nextjs-monorepo-example/commit/50e79d7659a13a0715e864c5b4aff3bf999afcfe)]:
-  - @your-org/core-lib@3.10.0
+  - @we-make-websites/core-lib@3.10.0
 
 ## 1.2.1
 
 ### Patch Changes
 
 - Updated dependencies [[`43fd9647`](https://github.com/belgattitude/nextjs-monorepo-example/commit/43fd964796af951d1cfff78592330bc2fa231b75)]:
-  - @your-org/ui-lib@3.8.1
+  - @we-make-websites/ui-lib@3.8.1
 
 ## 1.2.0
 
@@ -209,8 +209,8 @@
 ### Patch Changes
 
 - Updated dependencies [[`5e25fab2`](https://github.com/belgattitude/nextjs-monorepo-example/commit/5e25fab2f0d620e999f536a1fb8e0ef45d56fd64)]:
-  - @your-org/core-lib@3.9.0
-  - @your-org/ui-lib@3.8.0
+  - @we-make-websites/core-lib@3.9.0
+  - @we-make-websites/ui-lib@3.8.0
 
 ## 1.0.0
 

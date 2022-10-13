@@ -1,4 +1,4 @@
-# @your-org/common-i18n
+# @we-make-websites/common-i18n
 
 ## 1.2.0
 

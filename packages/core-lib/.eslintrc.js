@@ -4,11 +4,11 @@
  */
 
 // Workaround for https://github.com/eslint/eslint/issues/3458 (re-export of @rushstack/eslint-patch)
-require('@your-org/eslint-config-bases/patch/modern-module-resolution');
+require('@we-make-websites/eslint-config-bases/patch/modern-module-resolution');
 
 const {
   getDefaultIgnorePatterns,
-} = require('@your-org/eslint-config-bases/helpers');
+} = require('@we-make-websites/eslint-config-bases/helpers');
 
 module.exports = {
   root: true,
@@ -18,14 +18,14 @@ module.exports = {
   },
   ignorePatterns: [...getDefaultIgnorePatterns()],
   extends: [
-    '@your-org/eslint-config-bases/typescript',
-    '@your-org/eslint-config-bases/sonar',
-    '@your-org/eslint-config-bases/regexp',
-    '@your-org/eslint-config-bases/jest',
-    '@your-org/eslint-config-bases/rtl',
-    '@your-org/eslint-config-bases/react',
+    '@we-make-websites/eslint-config-bases/typescript',
+    '@we-make-websites/eslint-config-bases/sonar',
+    '@we-make-websites/eslint-config-bases/regexp',
+    '@we-make-websites/eslint-config-bases/jest',
+    '@we-make-websites/eslint-config-bases/rtl',
+    '@we-make-websites/eslint-config-bases/react',
     // Apply prettier and disable incompatible rules
-    '@your-org/eslint-config-bases/prettier',
+    '@we-make-websites/eslint-config-bases/prettier',
   ],
   rules: {
     // optional overrides per project

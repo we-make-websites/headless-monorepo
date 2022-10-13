@@ -4,14 +4,14 @@
 
 ### Minor Changes
 
-- [#2713](https://github.com/belgattitude/nextjs-monorepo-example/pull/2713) [`e279d984`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e279d984d01937264b077a111863b38d15fcb1d0) Thanks [@belgattitude](https://github.com/belgattitude)! - Move typescript utils to @your-org/ts-utils
+- [#2713](https://github.com/belgattitude/nextjs-monorepo-example/pull/2713) [`e279d984`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e279d984d01937264b077a111863b38d15fcb1d0) Thanks [@belgattitude](https://github.com/belgattitude)! - Move typescript utils to @we-make-websites/ts-utils
 
 ### Patch Changes
 
 - Updated dependencies [[`e279d984`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e279d984d01937264b077a111863b38d15fcb1d0), [`e279d984`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e279d984d01937264b077a111863b38d15fcb1d0)]:
-  - @your-org/core-lib@3.15.0
-  - @your-org/ts-utils@1.1.0
-  - @your-org/ui-lib@3.15.0
+  - @we-make-websites/core-lib@3.15.0
+  - @we-make-websites/ts-utils@1.1.0
+  - @we-make-websites/ui-lib@3.15.0
 
 ## 3.53.0
 
@@ -22,7 +22,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`f2339d6e`](https://github.com/belgattitude/nextjs-monorepo-example/commit/f2339d6e62d844a1267c416d09110198e4f2af59)]:
-  - @your-org/common-i18n@1.2.0
+  - @we-make-websites/common-i18n@1.2.0
 
 ## 3.52.3
 
@@ -31,11 +31,11 @@
 - [#2611](https://github.com/belgattitude/nextjs-monorepo-example/pull/2611) [`de010ed2`](https://github.com/belgattitude/nextjs-monorepo-example/commit/de010ed28f21443bb1e1dbeea6c3c935a83365b3) Thanks [@belgattitude](https://github.com/belgattitude)! - Example with nextjs config in mjs (next.config.mjs)
 
 - Updated dependencies []:
-  - @your-org/api-gateway@1.2.1
-  - @your-org/common-i18n@1.1.1
-  - @your-org/core-lib@3.14.2
-  - @your-org/db-main-prisma@2.12.1
-  - @your-org/ui-lib@3.14.5
+  - @we-make-websites/api-gateway@1.2.1
+  - @we-make-websites/common-i18n@1.1.1
+  - @we-make-websites/core-lib@3.14.2
+  - @we-make-websites/db-main-prisma@2.12.1
+  - @we-make-websites/ui-lib@3.14.5
 
 ## 3.52.2
 
@@ -46,19 +46,19 @@
   See https://github.com/belgattitude/http-exception
 
 - Updated dependencies [[`2fc498cc`](https://github.com/belgattitude/nextjs-monorepo-example/commit/2fc498cc928c9a577fa4c4a0112f910e0c24f176)]:
-  - @your-org/core-lib@3.14.2
-  - @your-org/ui-lib@3.14.4
+  - @we-make-websites/core-lib@3.14.2
+  - @we-make-websites/ui-lib@3.14.4
 
 ## 3.52.1
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @your-org/api-gateway@1.2.1
-  - @your-org/common-i18n@1.1.1
-  - @your-org/core-lib@3.14.1
-  - @your-org/db-main-prisma@2.12.1
-  - @your-org/ui-lib@3.14.3
+  - @we-make-websites/api-gateway@1.2.1
+  - @we-make-websites/common-i18n@1.1.1
+  - @we-make-websites/core-lib@3.14.1
+  - @we-make-websites/db-main-prisma@2.12.1
+  - @we-make-websites/ui-lib@3.14.3
 
 ## 3.52.0
 
@@ -73,11 +73,11 @@
 - [#2214](https://github.com/belgattitude/nextjs-monorepo-example/pull/2214) [`62818ba`](https://github.com/belgattitude/nextjs-monorepo-example/commit/62818badff67ce032a209fe9217c319271833ddc) Thanks [@belgattitude](https://github.com/belgattitude)! - Speedup and clean yarn install on CI
 
 - Updated dependencies [[`62818ba`](https://github.com/belgattitude/nextjs-monorepo-example/commit/62818badff67ce032a209fe9217c319271833ddc)]:
-  - @your-org/db-main-prisma@2.12.1
-  - @your-org/api-gateway@1.2.1
-  - @your-org/common-i18n@1.1.1
-  - @your-org/core-lib@3.14.1
-  - @your-org/ui-lib@3.14.2
+  - @we-make-websites/db-main-prisma@2.12.1
+  - @we-make-websites/api-gateway@1.2.1
+  - @we-make-websites/common-i18n@1.1.1
+  - @we-make-websites/core-lib@3.14.1
+  - @we-make-websites/ui-lib@3.14.2
 
 ## 3.51.0
 
@@ -96,29 +96,29 @@
 ### Patch Changes
 
 - Updated dependencies [[`0279cc2`](https://github.com/belgattitude/nextjs-monorepo-example/commit/0279cc2598c0ffbc83219dda893e303a38af6bfd)]:
-  - @your-org/db-main-prisma@2.12.0
-  - @your-org/api-gateway@1.2.0
-  - @your-org/common-i18n@1.1.0
-  - @your-org/core-lib@3.14.0
-  - @your-org/ui-lib@3.14.1
+  - @we-make-websites/db-main-prisma@2.12.0
+  - @we-make-websites/api-gateway@1.2.0
+  - @we-make-websites/common-i18n@1.1.0
+  - @we-make-websites/core-lib@3.14.0
+  - @we-make-websites/ui-lib@3.14.1
 
 ## 3.49.2
 
 ### Patch Changes
 
 - Updated dependencies [[`31ac0da`](https://github.com/belgattitude/nextjs-monorepo-example/commit/31ac0da08875ece918777fa54379e7b2e4c4286f)]:
-  - @your-org/ui-lib@3.14.0
+  - @we-make-websites/ui-lib@3.14.0
 
 ## 3.49.1
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @your-org/api-gateway@1.2.0
-  - @your-org/common-i18n@1.1.0
-  - @your-org/core-lib@3.14.0
-  - @your-org/db-main-prisma@2.11.0
-  - @your-org/ui-lib@3.13.1
+  - @we-make-websites/api-gateway@1.2.0
+  - @we-make-websites/common-i18n@1.1.0
+  - @we-make-websites/core-lib@3.14.0
+  - @we-make-websites/db-main-prisma@2.11.0
+  - @we-make-websites/ui-lib@3.13.1
 
 ## 3.49.0
 
@@ -129,11 +129,11 @@
 ### Patch Changes
 
 - Updated dependencies [[`5ad462a`](https://github.com/belgattitude/nextjs-monorepo-example/commit/5ad462a9a621564366c7a0ef0a77899fc855de85)]:
-  - @your-org/api-gateway@1.2.0
-  - @your-org/common-i18n@1.1.0
-  - @your-org/core-lib@3.14.0
-  - @your-org/db-main-prisma@2.11.0
-  - @your-org/ui-lib@3.13.0
+  - @we-make-websites/api-gateway@1.2.0
+  - @we-make-websites/common-i18n@1.1.0
+  - @we-make-websites/core-lib@3.14.0
+  - @we-make-websites/db-main-prisma@2.11.0
+  - @we-make-websites/ui-lib@3.13.0
 
 ## 3.48.0
 
@@ -150,7 +150,7 @@
 - [#1843](https://github.com/belgattitude/nextjs-monorepo-example/pull/1843) [`9804111`](https://github.com/belgattitude/nextjs-monorepo-example/commit/98041113ca05d96142b751b8d86aa2c54f06db10) Thanks [@belgattitude](https://github.com/belgattitude)! - Rename package graphql-mesh to api-gateway
 
 - Updated dependencies [[`9804111`](https://github.com/belgattitude/nextjs-monorepo-example/commit/98041113ca05d96142b751b8d86aa2c54f06db10)]:
-  - @your-org/api-gateway@1.1.1
+  - @we-make-websites/api-gateway@1.1.1
 
 ## 3.47.0
 
@@ -161,7 +161,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`3d3863a`](https://github.com/belgattitude/nextjs-monorepo-example/commit/3d3863a06715cfda9f9d25ac7676889a3c22bc2e)]:
-  - @your-org/graphql-mesh@1.1.0
+  - @we-make-websites/graphql-mesh@1.1.0
 
 ## 3.46.0
 
@@ -178,30 +178,30 @@
 
 ### Minor Changes
 
-- [#1727](https://github.com/belgattitude/nextjs-monorepo-example/pull/1727) [`a844907`](https://github.com/belgattitude/nextjs-monorepo-example/commit/a8449073efa6d1311ab9c51f9cacd451fafff3f4) Thanks [@belgattitude](https://github.com/belgattitude)! - Example and howto consume shared locales from @your-org/common-i18n
+- [#1727](https://github.com/belgattitude/nextjs-monorepo-example/pull/1727) [`a844907`](https://github.com/belgattitude/nextjs-monorepo-example/commit/a8449073efa6d1311ab9c51f9cacd451fafff3f4) Thanks [@belgattitude](https://github.com/belgattitude)! - Example and howto consume shared locales from @we-make-websites/common-i18n
 
 ### Patch Changes
 
 - Updated dependencies [[`a844907`](https://github.com/belgattitude/nextjs-monorepo-example/commit/a8449073efa6d1311ab9c51f9cacd451fafff3f4)]:
-  - @your-org/common-i18n@1.0.0
+  - @we-make-websites/common-i18n@1.0.0
 
 ## 3.44.2
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @your-org/core-lib@3.13.0
-  - @your-org/db-main-prisma@2.10.0
-  - @your-org/ui-lib@3.12.2
+  - @we-make-websites/core-lib@3.13.0
+  - @we-make-websites/db-main-prisma@2.10.0
+  - @we-make-websites/ui-lib@3.12.2
 
 ## 3.44.1
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @your-org/core-lib@3.13.0
-  - @your-org/db-main-prisma@2.10.0
-  - @your-org/ui-lib@3.12.1
+  - @we-make-websites/core-lib@3.13.0
+  - @we-make-websites/db-main-prisma@2.10.0
+  - @we-make-websites/ui-lib@3.12.1
 
 ## 3.44.0
 
@@ -212,9 +212,9 @@
 ### Patch Changes
 
 - Updated dependencies [[`9f2c2d0`](https://github.com/belgattitude/nextjs-monorepo-example/commit/9f2c2d049cfb87a3023a38b096f07f998862e3f6)]:
-  - @your-org/core-lib@3.13.0
-  - @your-org/db-main-prisma@2.10.0
-  - @your-org/ui-lib@3.12.0
+  - @we-make-websites/core-lib@3.13.0
+  - @we-make-websites/db-main-prisma@2.10.0
+  - @we-make-websites/ui-lib@3.12.0
 
 ## 3.43.2
 
@@ -227,9 +227,9 @@
 ### Patch Changes
 
 - Updated dependencies [[`ee0a3db`](https://github.com/belgattitude/nextjs-monorepo-example/commit/ee0a3dbd664c33d7149302ae3f776951dbd50492)]:
-  - @your-org/core-lib@3.12.0
-  - @your-org/db-main-prisma@2.9.0
-  - @your-org/ui-lib@3.11.0
+  - @we-make-websites/core-lib@3.12.0
+  - @we-make-websites/db-main-prisma@2.9.0
+  - @we-make-websites/ui-lib@3.11.0
 
 ## 3.43.0
 
@@ -266,7 +266,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`e269ada4`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e269ada479151a243128612278bc0d5642e6db04), [`82e77f7c`](https://github.com/belgattitude/nextjs-monorepo-example/commit/82e77f7ce8a8fda3db16796685c817cb142114bb)]:
-  - @your-org/ui-lib@3.10.0
+  - @we-make-websites/ui-lib@3.10.0
 
 ## 3.39.0
 
@@ -279,16 +279,16 @@
 ### Patch Changes
 
 - Updated dependencies [[`05291de7`](https://github.com/belgattitude/nextjs-monorepo-example/commit/05291de7deeed720e8b7271d339050116b448177)]:
-  - @your-org/core-lib@3.11.0
-  - @your-org/db-main-prisma@2.8.0
-  - @your-org/ui-lib@3.9.0
+  - @we-make-websites/core-lib@3.11.0
+  - @we-make-websites/db-main-prisma@2.8.0
+  - @we-make-websites/ui-lib@3.9.0
 
 ## 3.38.2
 
 ### Patch Changes
 
 - Updated dependencies [[`50e79d76`](https://github.com/belgattitude/nextjs-monorepo-example/commit/50e79d7659a13a0715e864c5b4aff3bf999afcfe)]:
-  - @your-org/core-lib@3.10.0
+  - @we-make-websites/core-lib@3.10.0
 
 ## 3.38.1
 
@@ -297,7 +297,7 @@
 - [#1104](https://github.com/belgattitude/nextjs-monorepo-example/pull/1104) [`73d03354`](https://github.com/belgattitude/nextjs-monorepo-example/commit/73d0335454487812b78b65a4f17efe79a022fb53) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency type-fest to v2.9.0
 
 - Updated dependencies [[`43fd9647`](https://github.com/belgattitude/nextjs-monorepo-example/commit/43fd964796af951d1cfff78592330bc2fa231b75)]:
-  - @your-org/ui-lib@3.8.1
+  - @we-make-websites/ui-lib@3.8.1
 
 ## 3.38.0
 
@@ -320,15 +320,15 @@
 ### Patch Changes
 
 - Updated dependencies [[`5e25fab2`](https://github.com/belgattitude/nextjs-monorepo-example/commit/5e25fab2f0d620e999f536a1fb8e0ef45d56fd64)]:
-  - @your-org/core-lib@3.9.0
-  - @your-org/ui-lib@3.8.0
+  - @we-make-websites/core-lib@3.9.0
+  - @we-make-websites/ui-lib@3.8.0
 
 ## 3.35.1
 
 ### Patch Changes
 
 - Updated dependencies [[`cfcab664`](https://github.com/belgattitude/nextjs-monorepo-example/commit/cfcab66479a8b28468f67748abb559c4eb2fb10a)]:
-  - @your-org/ui-lib@3.7.0
+  - @we-make-websites/ui-lib@3.7.0
 
 ## 3.35.0
 
@@ -341,8 +341,8 @@
 ### Patch Changes
 
 - Updated dependencies [[`fcd68ed`](https://github.com/belgattitude/nextjs-monorepo-example/commit/fcd68ed476734fefda85f5ffa2cf82cbd1502aa6)]:
-  - @your-org/core-lib@3.8.1
-  - @your-org/ui-lib@3.6.1
+  - @we-make-websites/core-lib@3.8.1
+  - @we-make-websites/ui-lib@3.6.1
 
 ## 3.34.0
 
@@ -361,7 +361,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`bbc1a8f`](https://github.com/belgattitude/nextjs-monorepo-example/commit/bbc1a8f07500d13ddf3e86f2cb4111f4f22ddb11)]:
-  - @your-org/db-main-prisma@2.7.0
+  - @we-make-websites/db-main-prisma@2.7.0
 
 ## 3.33.0
 
@@ -384,9 +384,9 @@
 ### Patch Changes
 
 - Updated dependencies [[`77e758b`](https://github.com/belgattitude/nextjs-monorepo-example/commit/77e758bbed1bc4f13b99cdd0ed90fa11fde9518f)]:
-  - @your-org/core-lib@3.8.0
-  - @your-org/db-main-prisma@2.6.0
-  - @your-org/ui-lib@3.6.0
+  - @we-make-websites/core-lib@3.8.0
+  - @we-make-websites/db-main-prisma@2.6.0
+  - @we-make-websites/ui-lib@3.6.0
 
 ## 3.30.0
 
@@ -415,16 +415,16 @@
 ### Patch Changes
 
 - Updated dependencies [[`6b78e59`](https://github.com/belgattitude/nextjs-monorepo-example/commit/6b78e59e4933814e69c26c86743a5b003c92dc2a)]:
-  - @your-org/core-lib@3.7.0
-  - @your-org/ui-lib@3.5.0
-  - @your-org/db-main-prisma@2.5.0
+  - @we-make-websites/core-lib@3.7.0
+  - @we-make-websites/ui-lib@3.5.0
+  - @we-make-websites/db-main-prisma@2.5.0
 
 ## 3.26.3
 
 ### Patch Changes
 
 - Updated dependencies [[`dd239d6`](https://github.com/belgattitude/nextjs-monorepo-example/commit/dd239d63d99fdbf23150faf776f8c4be4dcf6e20)]:
-  - @your-org/db-main-prisma@2.4.0
+  - @we-make-websites/db-main-prisma@2.4.0
 
 ## 3.26.2
 
@@ -435,9 +435,9 @@
 * [#354](https://github.com/belgattitude/nextjs-monorepo-example/pull/354) [`16e4e2d`](https://github.com/belgattitude/nextjs-monorepo-example/commit/16e4e2d7b6023a0cc9bf62120d7b5b8e223740b5) Thanks [@belgattitude](https://github.com/belgattitude)! - Improve eslint config and add eslint-plugin-import
 
 * Updated dependencies [[`db7870f`](https://github.com/belgattitude/nextjs-monorepo-example/commit/db7870fbef1ac0422e8d142ab6bcd7d593abd685), [`16e4e2d`](https://github.com/belgattitude/nextjs-monorepo-example/commit/16e4e2d7b6023a0cc9bf62120d7b5b8e223740b5)]:
-  - @your-org/core-lib@3.6.1
-  - @your-org/db-main-prisma@2.3.1
-  - @your-org/ui-lib@3.4.1
+  - @we-make-websites/core-lib@3.6.1
+  - @we-make-websites/db-main-prisma@2.3.1
+  - @we-make-websites/ui-lib@3.4.1
 
 ## 3.26.1
 
@@ -462,9 +462,9 @@
 ### Patch Changes
 
 - Updated dependencies [[`a416f35`](https://github.com/belgattitude/nextjs-monorepo-example/commit/a416f3550dd0bb8412297295206f586630e586c0)]:
-  - @your-org/core-lib@3.6.0
-  - @your-org/db-main-prisma@2.3.0
-  - @your-org/ui-lib@3.4.0
+  - @we-make-websites/core-lib@3.6.0
+  - @we-make-websites/db-main-prisma@2.3.0
+  - @we-make-websites/ui-lib@3.4.0
 
 ## 3.24.0
 
@@ -475,9 +475,9 @@
 ### Patch Changes
 
 - Updated dependencies [[`2ccb056`](https://github.com/belgattitude/nextjs-monorepo-example/commit/2ccb056660dfd84a75e1a8733e56cc8d9b3fd353)]:
-  - @your-org/core-lib@3.5.0
-  - @your-org/db-main-prisma@2.2.0
-  - @your-org/ui-lib@3.3.0
+  - @we-make-websites/core-lib@3.5.0
+  - @we-make-websites/db-main-prisma@2.2.0
+  - @we-make-websites/ui-lib@3.3.0
 
 ## 3.23.1
 
@@ -506,7 +506,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`6cc466a`](https://github.com/belgattitude/nextjs-monorepo-example/commit/6cc466a8d0caf4e2ec8931ce87696ee83af71d19)]:
-  - @your-org/db-main-prisma@2.1.0
+  - @we-make-websites/db-main-prisma@2.1.0
 
 ## 3.21.0
 
@@ -527,7 +527,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`3b15241`](https://github.com/belgattitude/nextjs-monorepo-example/commit/3b15241726d57c7ddafc9b2766cb670ada617def)]:
-  - @your-org/ui-lib@3.2.0
+  - @we-make-websites/ui-lib@3.2.0
 
 ## 3.19.0
 
@@ -554,7 +554,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`d3b8916`](https://github.com/belgattitude/nextjs-monorepo-example/commit/d3b8916b9a9e208e746e85363f6a18dc164fee6c)]:
-  - @your-org/db-main-prisma@2.0.0
+  - @we-make-websites/db-main-prisma@2.0.0
 
 ## 3.16.0
 
@@ -601,8 +601,8 @@
 - [#181](https://github.com/belgattitude/nextjs-monorepo-example/pull/181) [`c5173ea`](https://github.com/belgattitude/nextjs-monorepo-example/commit/c5173ea4d9ae5f476c0434ad25a6ff7735350e06) Thanks [@belgattitude](https://github.com/belgattitude)! - Fix possible issues with peerDeps
 
 - Updated dependencies [[`c5173ea`](https://github.com/belgattitude/nextjs-monorepo-example/commit/c5173ea4d9ae5f476c0434ad25a6ff7735350e06)]:
-  - @your-org/core-lib@3.4.0
-  - @your-org/db-main-prisma@1.2.1
+  - @we-make-websites/core-lib@3.4.0
+  - @we-make-websites/db-main-prisma@1.2.1
 
 ## 3.12.0
 
@@ -615,9 +615,9 @@
 - [#172](https://github.com/belgattitude/nextjs-monorepo-example/pull/172) [`01e5e89`](https://github.com/belgattitude/nextjs-monorepo-example/commit/01e5e89e028029c5ef415f2f825d022f96a97fd4) Thanks [@belgattitude](https://github.com/belgattitude)! - Relaxed codeclimate config for react components
 
 - Updated dependencies [[`4929105`](https://github.com/belgattitude/nextjs-monorepo-example/commit/4929105635b9bfd460a5653ceb8cb05353bb9a8f), [`01e5e89`](https://github.com/belgattitude/nextjs-monorepo-example/commit/01e5e89e028029c5ef415f2f825d022f96a97fd4), [`4929105`](https://github.com/belgattitude/nextjs-monorepo-example/commit/4929105635b9bfd460a5653ceb8cb05353bb9a8f), [`3c8ef69`](https://github.com/belgattitude/nextjs-monorepo-example/commit/3c8ef6900120557fae33ff565595f8fe2b9628a9), [`4929105`](https://github.com/belgattitude/nextjs-monorepo-example/commit/4929105635b9bfd460a5653ceb8cb05353bb9a8f), [`4929105`](https://github.com/belgattitude/nextjs-monorepo-example/commit/4929105635b9bfd460a5653ceb8cb05353bb9a8f)]:
-  - @your-org/core-lib@3.3.0
-  - @your-org/db-main-prisma@1.2.0
-  - @your-org/ui-lib@3.1.3
+  - @we-make-websites/core-lib@3.3.0
+  - @we-make-websites/db-main-prisma@1.2.0
+  - @we-make-websites/ui-lib@3.1.3
 
 ## 3.11.1
 
@@ -626,9 +626,9 @@
 - [#135](https://github.com/belgattitude/nextjs-monorepo-example/pull/135) [`d548b70`](https://github.com/belgattitude/nextjs-monorepo-example/commit/d548b70b53baaa67d6de4e8a7c6254b59db3ced3) Thanks [@belgattitude](https://github.com/belgattitude)! - CI: use built-in yarn cache from setup/node@v2.2
 
 - Updated dependencies [[`d548b70`](https://github.com/belgattitude/nextjs-monorepo-example/commit/d548b70b53baaa67d6de4e8a7c6254b59db3ced3)]:
-  - @your-org/core-lib@3.2.2
-  - @your-org/db-main-prisma@1.1.3
-  - @your-org/ui-lib@3.1.2
+  - @we-make-websites/core-lib@3.2.2
+  - @we-make-websites/db-main-prisma@1.1.3
+  - @we-make-websites/ui-lib@3.1.2
 
 ## 3.11.0
 
@@ -641,7 +641,7 @@
 - [#117](https://github.com/belgattitude/nextjs-monorepo-example/pull/117) [`4607a02`](https://github.com/belgattitude/nextjs-monorepo-example/commit/4607a02d91e87134f306d25dfeabdba9c83b3837) Thanks [@belgattitude](https://github.com/belgattitude)! - Improved documentation
 
 - Updated dependencies [[`4607a02`](https://github.com/belgattitude/nextjs-monorepo-example/commit/4607a02d91e87134f306d25dfeabdba9c83b3837)]:
-  - @your-org/db-main-prisma@1.1.2
+  - @we-make-websites/db-main-prisma@1.1.2
 
 ## 3.10.0
 
@@ -690,9 +690,9 @@
 - [#84](https://github.com/belgattitude/nextjs-monorepo-example/pull/84) [`697842e`](https://github.com/belgattitude/nextjs-monorepo-example/commit/697842e913bd7164b21b51c9c9adb943b0904293) Thanks [@belgattitude](https://github.com/belgattitude)! - ESlint: added plugin:testing-library/react
 
 - Updated dependencies [[`a9c0d5e`](https://github.com/belgattitude/nextjs-monorepo-example/commit/a9c0d5e2651732ab23f1a335acddd23aef5a6b88), [`697842e`](https://github.com/belgattitude/nextjs-monorepo-example/commit/697842e913bd7164b21b51c9c9adb943b0904293), [`697842e`](https://github.com/belgattitude/nextjs-monorepo-example/commit/697842e913bd7164b21b51c9c9adb943b0904293)]:
-  - @your-org/core-lib@3.2.1
-  - @your-org/db-main-prisma@1.1.1
-  - @your-org/ui-lib@3.1.1
+  - @we-make-websites/core-lib@3.2.1
+  - @we-make-websites/db-main-prisma@1.1.1
+  - @we-make-websites/ui-lib@3.1.1
 
 ## 3.6.0
 
@@ -705,7 +705,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`5010c94`](https://github.com/belgattitude/nextjs-monorepo-example/commit/5010c944162165ab47923718a9ccaf1cafc419ee)]:
-  - @your-org/db-main-prisma@1.1.0
+  - @we-make-websites/db-main-prisma@1.1.0
 
 ## 3.5.0
 
@@ -722,8 +722,8 @@
 ### Patch Changes
 
 - Updated dependencies [[`152e4ad`](https://github.com/belgattitude/nextjs-monorepo-example/commit/152e4adc8be95f192b066f75ef4bb2dd42c46d12)]:
-  - @your-org/core-lib@3.2.0
-  - @your-org/ui-lib@3.1.0
+  - @we-make-websites/core-lib@3.2.0
+  - @we-make-websites/ui-lib@3.1.0
 
 ## 3.3.0
 
@@ -734,7 +734,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`800ccdc`](https://github.com/belgattitude/nextjs-monorepo-example/commit/800ccdcc93884157d4b9535272625a5a5719e83d), [`800ccdc`](https://github.com/belgattitude/nextjs-monorepo-example/commit/800ccdcc93884157d4b9535272625a5a5719e83d)]:
-  - @your-org/core-lib@3.1.0
+  - @we-make-websites/core-lib@3.1.0
 
 ## 3.2.0
 
