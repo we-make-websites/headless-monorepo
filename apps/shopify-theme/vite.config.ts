@@ -14,4 +14,7 @@ export default {
       additionalEntrypoints: [],
     }),
   ],
+  build: {
+    emptyOutDir: false,
+  },
 };
