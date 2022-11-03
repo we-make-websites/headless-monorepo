@@ -18,7 +18,7 @@ Basic demo nextjs nextjs-app, part of the [nextjs-monorepo-example](https://gith
 ## Quick start
 
 > For rest/api database access be sure to start `docker-compose up main-db`,
-> see detailed instructions (seeding, docker, supabase...) in the [@your-org/db-main-prisma README](https://github.com/belgattitude/nextjs-monorepo-example/blob/main/packages/db-main-prisma/README.md).
+> see detailed instructions (seeding, docker, supabase...) in the [@we-make-websites/db-main-prisma README](https://github.com/belgattitude/nextjs-monorepo-example/blob/main/packages/db-main-prisma/README.md).
 
 ```bash
 $ yarn install
@@ -46,9 +46,9 @@ This app relies on packages in the monorepo, see detailed instructions in [READM
 ```json5
 {
   dependencies: {
-    "@your-org/core-lib": "workspace:*",
-    "@your-org/db-main-prisma": "workspace:*",
-    "@your-org/ui-lib": "workspace:*",
+    "@we-make-websites/core-lib": "workspace:*",
+    "@we-make-websites/db-main-prisma": "workspace:*",
+    "@we-make-websites/ui-lib": "workspace:*",
   },
 }
 ```
@@ -60,12 +60,14 @@ And their counterparts in [tsconfig.json](./tsconfig.json)
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "@your-org/ui-lib/*": ["../../../packages/ui-lib/src/*"],
-      "@your-org/ui-lib": ["../../../packages/ui-lib/src/index"],
-      "@your-org/core-lib/*": ["../../../packages/core-lib/src/*"],
-      "@your-org/core-lib": ["../../../packages/core-lib/src/index"],
-      "@your-org/db-main-prisma/*": ["../../../packages/db-main-prisma/src/*"],
-      "@your-org/db-main-prisma": [
+      "@we-make-websites/ui-lib/*": ["../../../packages/ui-lib/src/*"],
+      "@we-make-websites/ui-lib": ["../../../packages/ui-lib/src/index"],
+      "@we-make-websites/core-lib/*": ["../../../packages/core-lib/src/*"],
+      "@we-make-websites/core-lib": ["../../../packages/core-lib/src/index"],
+      "@we-make-websites/db-main-prisma/*": [
+        "../../../packages/db-main-prisma/src/*",
+      ],
+      "@we-make-websites/db-main-prisma": [
         "../../../packages/db-main-prisma/src/index",
       ],
     },

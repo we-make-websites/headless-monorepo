@@ -1,5 +1,5 @@
 {
-  "name": "@your-org/ui-lib",
+  "name": "@we-make-websites/ui-lib",
   "version": "3.15.1",
   "license": "MIT",
   "private": true,
@@ -33,7 +33,7 @@
     "serve-storybook": "sirv build/storybook --cors --port 8888"
   },
   "dependencies": {
-    "@your-org/ts-utils": "workspace:^"
+    "@we-make-websites/ts-utils": "workspace:^"
   },
   "peerDependencies": {
     "@emotion/react": "^11.9.0",
@@ -76,7 +76,7 @@
     "@types/node": "18.11.7",
     "@types/react": "18.0.24",
     "@types/react-dom": "18.0.8",
-    "@your-org/eslint-config-bases": "workspace:^",
+    "@we-make-websites/eslint-config-bases": "workspace:^",
     "autoprefixer": "10.4.13",
     "babel-loader": "9.0.0",
     "babel-plugin-macros": "3.1.0",

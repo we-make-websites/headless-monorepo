@@ -18,7 +18,7 @@
   <a aria-label="Codacy grade" href="https://www.codacy.com/gh/belgattitude/nextjs-monorepo-example/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=belgattitude/nextjs-monorepo-example&amp;utm_campaign=Badge_Grade">
     <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/dff9c944af284a0fad4e165eb1727467?logo=codacy&style=flat-square&labelColor=000&label=Codacy">
   </a>
-  <a aria-label="LoC">  
+  <a aria-label="LoC">
     <img alt="LoC" src="https://img.shields.io/tokei/lines/github/belgattitude/nextjs-monorepo-example?style=flat-quare&labelColor=000000" />
   </a>
   <a aria-label="Top language" href="https://github.com/belgattitude/nextjs-monorepo-example/search?l=typescript">
@@ -208,7 +208,7 @@ Initialize a package.json with the name of your package.
 
 ```json5
 {
-  "name": "@your-org/magnificent-poney",
+  "name": "@we-make-websites/magnificent-poney",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -221,7 +221,7 @@ Initialize a package.json with the name of your package.
     "fix:all-files": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
   },
   "devDependencies": {
-    "@your-org/eslint-config-bases": "workspace:^",
+    "@we-make-websites/eslint-config-bases": "workspace:^",
   },
 }
 ```
@@ -238,7 +238,7 @@ yarn and pnpm.
 
 ```bash
 cd apps/my-app
-yarn add @your-org/magnificent-poney@'workspace:^'
+yarn add @we-make-websites/magnificent-poney@'workspace:^'
 ```
 
 Inspiration can be found in [apps/nextjs-app/package.json](./apps/nextjs-app/package.json).
@@ -250,7 +250,7 @@ Inspiration can be found in [apps/nextjs-app/package.json](./apps/nextjs-app/pac
 {
   "name": "my-app",
   "dependencies": {
-    "@your-org/magnificient-poney": "workspace:^",
+    "@we-make-websites/magnificient-poney": "workspace:^",
   },
 }
 ```
@@ -275,10 +275,10 @@ Inspiration can be found in [apps/nextjs-app/tsconfig.json](./apps/nextjs-app/ts
       // regular app aliases
       "@/components/*": ["./components/*"],
       // packages aliases, relative to app_directory/baseUrl
-      "@your-org/magnificent-poney/*": [
+      "@we-make-websites/magnificent-poney/*": [
         "../../../packages/magnificent-poney/src/*",
       ],
-      "@your-org/magnificent-poney": [
+      "@we-make-websites/magnificent-poney": [
         "../../../packages/magnificent-poney/src/index",
       ],
     },
@@ -290,7 +290,7 @@ Inspiration can be found in [apps/nextjs-app/tsconfig.json](./apps/nextjs-app/ts
 >
 > - Don't try to set aliases in the global tsonfig.base.json to keep strict with
 >   graph dependencies.
-> - The **star** in `@your-org/magnificent-poney/*` allows you to import subfolders. If you use
+> - The **star** in `@we-make-websites/magnificent-poney/*` allows you to import subfolders. If you use
 >   a barrel file (index.ts), the alias with star can be removed.
 
 </details>
@@ -343,7 +343,7 @@ const nextConfig = {
 
 #### Step 3.4: Using the package
 
-The packages are now linked to your app, just import them like regular packages: `import { poney } from '@your-org/magnificent-poney'`.
+The packages are now linked to your app, just import them like regular packages: `import { poney } from '@we-make-websites/magnificent-poney'`.
 
 ### 4. Publishing
 

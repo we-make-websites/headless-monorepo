@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "name": "hydrogen-app",
+      "path": "apps/hydrogen-app"
+    },
+    {
       "name": "nextjs-app",
       "path": "apps/nextjs-app"
     },
@@ -9,8 +13,12 @@
       "path": "apps/remix-app"
     },
     {
-      "name": "vite-app",
-      "path": "apps/vite-app"
+      "name": "sanitystudio-app",
+      "path": "apps/hydrogen-app"
+    },
+    {
+      "name": "shopify-theme",
+      "path": "apps/hydrogen-app"
     },
     {
       "name": "api-gateway",
@@ -35,6 +43,10 @@
     {
       "name": "ui-lib",
       "path": "packages/ui-lib"
+    },
+    {
+      "name": "web-components-stencil",
+      "path": "packages/web-components-stencil"
     },
     {
       "name": "root",
@@ -63,7 +75,7 @@
     "eslint.workingDirectories": [
       "./apps/nextjs-app",
       "./apps/remix-app",
-      "./apps/vite-app",
+      "./apps/hydrogen-app",
       "./packages/api-gateway",
       "./packages/common-i18n",
       "./packages/core-lib",

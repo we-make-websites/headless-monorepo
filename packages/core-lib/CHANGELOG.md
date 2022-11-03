@@ -1,4 +1,4 @@
-# @your-org/core-lib
+# @we-make-websites/core-lib
 
 ## 3.15.1
 
@@ -10,18 +10,18 @@
   Ref: [changesets@2.25.0](https://github.com/changesets/changesets/releases/tag/%40changesets%2Fcli%402.25.0) & [#662](https://github.com/changesets/changesets/pull/662).
 
 - Updated dependencies [[`e0b03b05`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e0b03b059ea2b75272c2a86139f7ff8b0af874a9)]:
-  - @your-org/ts-utils@1.1.1
+  - @we-make-websites/ts-utils@1.1.1
 
 ## 3.15.0
 
 ### Minor Changes
 
-- [#2713](https://github.com/belgattitude/nextjs-monorepo-example/pull/2713) [`e279d984`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e279d984d01937264b077a111863b38d15fcb1d0) Thanks [@belgattitude](https://github.com/belgattitude)! - Move typescript utils to @your-org/ts-utils
+- [#2713](https://github.com/belgattitude/nextjs-monorepo-example/pull/2713) [`e279d984`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e279d984d01937264b077a111863b38d15fcb1d0) Thanks [@belgattitude](https://github.com/belgattitude)! - Move typescript utils to @we-make-websites/ts-utils
 
 ### Patch Changes
 
 - Updated dependencies [[`e279d984`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e279d984d01937264b077a111863b38d15fcb1d0), [`e279d984`](https://github.com/belgattitude/nextjs-monorepo-example/commit/e279d984d01937264b077a111863b38d15fcb1d0)]:
-  - @your-org/ts-utils@1.1.0
+  - @we-make-websites/ts-utils@1.1.0
 
 ## 3.14.2
 

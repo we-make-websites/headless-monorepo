@@ -1,4 +1,4 @@
-import { isPlainObject } from '@your-org/ts-utils';
+import { isPlainObject } from '@we-make-websites/ts-utils';
 import type {
   JsonApiErrorResponse,
   JsonApiResponse,

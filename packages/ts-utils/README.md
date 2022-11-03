@@ -1,4 +1,4 @@
-# @your-org/ts-utils
+# @we-make-websites/ts-utils
 
 > **Note**
 > This package is part of [belgattitude/nextjs-monorepo-example](https://github.com/belgattitude/nextjs-monorepo-example).
@@ -14,7 +14,7 @@ A package holding some basic typescript utilities: typeguards, assertions...
 From any package or apps:
 
 ```bash
-yarn add @your-org/ts-utils@"workspace:^"
+yarn add @we-make-websites/ts-utils@"workspace:^"
 ```
 
 ## Enable aliases
@@ -25,7 +25,7 @@ yarn add @your-org/ts-utils@"workspace:^"
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "@your-org/ts-utils": ["../../../packages/ts-utils/src/index"],
+      "@we-make-websites/ts-utils": ["../../../packages/ts-utils/src/index"],
     },
   },
 }
@@ -34,7 +34,7 @@ yarn add @your-org/ts-utils@"workspace:^"
 ## Consume
 
 ```typescript
-import { isPlainObject } from "@your-org/ts-utils";
+import { isPlainObject } from "@we-make-websites/ts-utils";
 
 isPlainObject(true) === false;
 ```

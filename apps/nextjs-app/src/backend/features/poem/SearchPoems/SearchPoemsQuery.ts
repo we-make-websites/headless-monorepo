@@ -1,6 +1,6 @@
 import { HttpInternalServerError } from '@belgattitude/http-exception';
-import type { PrismaClientDbMain } from '@your-org/db-main-prisma';
-import type { UnPromisify } from '@your-org/ts-utils';
+import type { PrismaClientDbMain } from '@we-make-websites/db-main-prisma';
+import type { UnPromisify } from '@we-make-websites/ts-utils';
 import type { SearchPoemsParams } from './SearchPoems.types';
 
 type SearchPoems = UnPromisify<ReturnType<SearchPoemsQuery['searchPoems']>>;

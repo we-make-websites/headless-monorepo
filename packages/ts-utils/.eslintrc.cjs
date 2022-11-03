@@ -5,7 +5,7 @@
 
 const {
   getDefaultIgnorePatterns,
-} = require('@your-org/eslint-config-bases/helpers');
+} = require('@we-make-websites/eslint-config-bases/helpers');
 
 module.exports = {
   root: true,
@@ -15,12 +15,12 @@ module.exports = {
   },
   ignorePatterns: [...getDefaultIgnorePatterns()],
   extends: [
-    '@your-org/eslint-config-bases/typescript',
-    '@your-org/eslint-config-bases/sonar',
-    '@your-org/eslint-config-bases/regexp',
-    '@your-org/eslint-config-bases/jest',
+    '@we-make-websites/eslint-config-bases/typescript',
+    '@we-make-websites/eslint-config-bases/sonar',
+    '@we-make-websites/eslint-config-bases/regexp',
+    '@we-make-websites/eslint-config-bases/jest',
     // Apply prettier and disable incompatible rules
-    '@your-org/eslint-config-bases/prettier',
+    '@we-make-websites/eslint-config-bases/prettier',
   ],
   rules: {
     // optional overrides per project

@@ -1,4 +1,4 @@
-# @your-org/db-main-prisma
+# @we-make-websites/db-main-prisma
 
 <p align="left">
   <a aria-label="Build" href="https://github.com/belgattitude/nextjs-monorepo-example/actions?query=workflow%3ACI">

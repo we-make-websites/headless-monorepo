@@ -1,6 +1,6 @@
 import { HttpMethodNotAllowed } from '@belgattitude/http-exception';
-import { JsonApiResponseFactory } from '@your-org/core-lib/api/json-api';
-import { JsonApiErrorFactory } from '@your-org/core-lib/api/json-api/json-api-error.factory';
+import { JsonApiResponseFactory } from '@we-make-websites/core-lib/api/json-api';
+import { JsonApiErrorFactory } from '@we-make-websites/core-lib/api/json-api/json-api-error.factory';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import superjson from 'superjson';
 import { prismaClient } from '@/backend/config/container.config';

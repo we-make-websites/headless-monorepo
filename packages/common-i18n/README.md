@@ -1,4 +1,4 @@
-# @your-org/common-i18n
+# @we-make-websites/common-i18n
 
 <p align="left">
   <a aria-label="Build" href="https://github.com/belgattitude/nextjs-monorepo-example/actions?query=workflow%3ACI">
@@ -15,7 +15,7 @@ One possible way to share locales amongst apps in the monorepo.
 Add the workspace dependency to the consuming app or package.
 
 ```bash
-yarn add @your-org/common-locales:"workspace:^"
+yarn add @we-make-websites/common-locales:"workspace:^"
 ```
 
 Add an alias in tsconfig.js to enable fast-refresh.
@@ -24,8 +24,10 @@ Add an alias in tsconfig.js to enable fast-refresh.
 {
   "compilerOptions": {
     "paths": {
-      "@your-org/common-i18n": ["../../../packages/common-i18n/src/index"],
-      "@your-org/common-i18n/locales/*": [
+      "@we-make-websites/common-i18n": [
+        "../../../packages/common-i18n/src/index",
+      ],
+      "@we-make-websites/common-i18n/locales/*": [
         "../../../packages/common-i18n/src/locales/*",
       ],
     },
@@ -37,7 +39,7 @@ Optionally create a file named `./types.d/react-i18next.d.ts` to enable typechec
 
 ```typescript
 import "react-i18next";
-import type { I18nNamespaces } from "@your-org/common-i18n";
+import type { I18nNamespaces } from "@we-make-websites/common-i18n";
 
 declare module "react-i18next" {
   interface CustomTypeOptions {

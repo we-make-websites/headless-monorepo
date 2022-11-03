@@ -10,7 +10,7 @@
     "noEmit": false,
     "incremental": true,
     "paths": {
-      "@your-org/ts-utils": ["../../../packages/ts-utils/src/index"]
+      "@we-make-websites/ts-utils": ["../../../packages/ts-utils/src/index"]
     }
   },
   "exclude": ["**/node_modules", "**/.*/", "dist", "build"]

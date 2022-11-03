@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import systemJsonEn from '@your-org/common-i18n/locales/en/system.json';
-import systemJsonFr from '@your-org/common-i18n/locales/fr/system.json';
+import systemJsonEn from '@we-make-websites/common-i18n/locales/en/system.json';
+import systemJsonFr from '@we-make-websites/common-i18n/locales/fr/system.json';
 
 const pageSlug = 'this-page-does-not-exist';
 

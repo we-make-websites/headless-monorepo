@@ -1,4 +1,4 @@
-# @your-org/api-gateway
+# @we-make-websites/api-gateway
 
 ## 1.2.2
 

@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { isIsoDateString } from '@your-org/ts-utils';
+import { isIsoDateString } from '@we-make-websites/ts-utils';
 import type { HealthCheckApiPayload } from '@/pages/api/_monitor/healthcheck';
 import packageJson from '../../../package.json';
 

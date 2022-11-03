@@ -1,5 +1,8 @@
-import { PrismaManager, PrismaClientDbMain } from '@your-org/db-main-prisma';
-import { assertNonEmptyString } from '@your-org/ts-utils';
+import {
+  PrismaManager,
+  PrismaClientDbMain,
+} from '@we-make-websites/db-main-prisma';
+import { assertNonEmptyString } from '@we-make-websites/ts-utils';
 
 const isDev = process.env?.NODE_ENV === 'development';
 
