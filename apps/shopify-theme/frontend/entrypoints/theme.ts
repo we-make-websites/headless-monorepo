@@ -3,7 +3,7 @@ import 'vite/modulepreload-polyfill';
 const element: HTMLDivElement = document.createElement('div');
 element.className = 'app';
 element.innerHTML = `
-  <h1>Hello Vite!</h1>
+  <h1>Hello Vite!!</h1>
   <div class="card">
     <button id="counter" type="button"></button>
   </div>

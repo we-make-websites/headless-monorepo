@@ -2,8 +2,8 @@
   "name": "vite-shopify-example",
   "private": true,
   "scripts": {
-    "dev": "cross-env DEBUG=vite-plugin-shopify:* vite",
-    "build": "cross-env DEBUG=vite-plugin-shopify:* vite build",
+    "dev": "cross-env vite",
+    "build": "cross-env vite build",
     "lint": "eslint ."
   },
   "devDependencies": {
