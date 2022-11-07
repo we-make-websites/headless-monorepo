@@ -1,3 +1,7 @@
+// 👇️ ts-nocheck ignores all ts errors in the file
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+
 import react from '@vitejs/plugin-react';
 import svgr from 'vite-plugin-svgr';
 import tsconfigPaths from 'vite-tsconfig-paths';
@@ -7,12 +11,7 @@ const testFiles = ['./src/**/*.test.{js,jsx,ts,tsx}'];
 
 export default defineConfig({
   plugins: [
-    react({
-      jsxImportSource: '@emotion/react',
-      babel: {
-        plugins: ['@emotion/babel-plugin'],
-      },
-    }),
+    react(),
     tsconfigPaths(),
     svgr({
       // Set it to `true` to export React component as default.

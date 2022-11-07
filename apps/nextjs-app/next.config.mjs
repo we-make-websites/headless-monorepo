@@ -4,7 +4,6 @@ import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import url from 'node:url';
 import withBundleAnalyzer from '@next/bundle-analyzer';
-import { withSentryConfig } from '@sentry/nextjs'; // https://docs.sentry.io/platforms/javascript/guides/nextjs/
 
 import { createSecureHeaders } from 'next-secure-headers';
 import withNextTranspileModules from 'next-transpile-modules';
@@ -37,13 +36,6 @@ const NEXTJS_IGNORE_ESLINT = trueEnv.includes(
 const NEXTJS_IGNORE_TYPECHECK = trueEnv.includes(
   process.env?.NEXTJS_IGNORE_TYPECHECK ?? 'false'
 );
-const NEXTJS_SENTRY_UPLOAD_DRY_RUN = trueEnv.includes(
-  process.env?.NEXTJS_SENTRY_UPLOAD_DRY_RUN ?? 'false'
-);
-const NEXTJS_DISABLE_SENTRY = trueEnv.includes(
-  process.env?.NEXTJS_DISABLE_SENTRY ?? 'false'
-);
-
 const NEXTJS_SENTRY_DEBUG = trueEnv.includes(
   process.env?.NEXTJS_SENTRY_DEBUG ?? 'false'
 );
@@ -170,10 +162,6 @@ const nextConfig = {
   // @link https://nextjs.org/docs/advanced-features/output-file-tracing#automatically-copying-traced-files-experimental
   output: 'standalone',
 
-  sentry: {
-    hideSourceMaps: true,
-  },
-
   // @link https://nextjs.org/docs/basic-features/image-optimization
   images: {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
@@ -205,6 +193,8 @@ const nextConfig = {
     // @link {https://github.com/vercel/next.js/pull/22867|Original PR}
     // @link {https://github.com/vercel/next.js/discussions/26420|Discussion}
     externalDir: true,
+
+    appDir: true,
   },
 
   typescript: {
@@ -290,22 +280,6 @@ const nextConfig = {
 };
 
 let config = nextConfig;
-
-if (!NEXTJS_DISABLE_SENTRY) {
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore because sentry does not match nextjs current definitions
-  config = withSentryConfig(config, {
-    // Additional config options for the Sentry Webpack plugin. Keep in mind that
-    // the following options are set automatically, and overriding them is not
-    // recommended:
-    //   release, url, org, project, authToken, configFile, stripPrefix,
-    //   urlPrefix, include, ignore
-    // For all available options, see:
-    // https://github.com/getsentry/sentry-webpack-plugin#options.
-    // silent: isProd, // Suppresses all logs
-    dryRun: NEXTJS_SENTRY_UPLOAD_DRY_RUN,
-  });
-}
 
 if (tmModules.length > 0) {
   console.info(

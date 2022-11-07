@@ -28,7 +28,7 @@
   },
   "scripts": {
     "clean": "rimraf --no-glob ./.next ./out ./coverage ./tsconfig.tsbuildinfo",
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "build-fast": "cross-env NEXTJS_IGNORE_TYPECHECK=1 NEXTJS_IGNORE_ESLINT=1 NEXTJS_DISABLE_SENTRY=1 NEXTJS_SENTRY_UPLOAD_DRY_RUN=1 next build",
     "vercel-build": "yarn share-static-hardlink && next build",
@@ -51,7 +51,6 @@
     "flamegraph-home": "npx 0x --output-dir './.debug/flamegraph/{pid}.0x' --on-port 'autocannon http://localhost:$PORT --duration 20' -- node ../../node_modules/.bin/next start"
   },
   "devDependencies": {
-    "@emotion/babel-plugin": "11.10.5",
     "@next/bundle-analyzer": "13.0.1",
     "@next/env": "13.0.1",
     "@playwright/test": "1.27.1",
@@ -107,10 +106,6 @@
   "dependencies": {
     "@babel/core": "7.19.6",
     "@belgattitude/http-exception": "1.4.0",
-    "@emotion/cache": "11.10.5",
-    "@emotion/react": "11.10.5",
-    "@emotion/server": "11.10.0",
-    "@emotion/styled": "11.10.5",
     "@fontsource/inter": "4.5.14",
     "@graphql-yoga/node": "2.13.13",
     "@headlessui/react": "1.7.3",
@@ -119,28 +114,18 @@
     "@mui/material": "5.10.12",
     "@sentry/nextjs": "7.17.4",
     "@sentry/react": "7.17.4",
-    "@soluble/cache-interop": "0.11.1",
-    "@soluble/cache-ioredis": "0.12.1",
+    "@shopify/hydrogen-react": "2022.10.1",
     "@tanstack/react-query": "4.14.1",
-    "@we-make-websites/api-gateway": "workspace:^",
     "@we-make-websites/common-i18n": "workspace:^",
     "@we-make-websites/core-lib": "workspace:^",
-    "@we-make-websites/db-main-prisma": "workspace:^",
     "@we-make-websites/ts-utils": "workspace:^",
     "@we-make-websites/ui-lib": "workspace:^",
-    "apollo-server-core": "3.11.1",
-    "apollo-server-micro": "3.11.1",
-    "axios": "1.1.3",
     "clsx": "1.2.1",
-    "cors": "2.8.5",
     "graphql": "16.6.0",
+    "graphql-request": "5.0.0",
     "i18next": "21.10.0",
-    "jose": "4.10.4",
     "ky": "0.32.2",
-    "micro": "9.4.1",
     "next": "13.0.1",
-    "next-auth": "4.15.0",
-    "next-connect": "0.13.0",
     "next-i18next": "12.1.0",
     "next-secure-headers": "2.2.0",
     "next-seo": "5.13.0",
@@ -152,8 +137,6 @@
     "react-i18next": "11.18.6",
     "rooks": "7.4.1",
     "sharp": "0.31.1",
-    "superjson": "1.11.0",
-    "type-fest": "3.1.0",
-    "zod": "3.19.1"
+    "type-fest": "3.1.0"
   }
 }

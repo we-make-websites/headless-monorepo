@@ -7,7 +7,6 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "jsx": "preserve",
-    "jsxImportSource": "@emotion/react",
     "incremental": true,
     "paths": {
       "@/test-utils": ["../config/tests/test-utils"],
@@ -29,14 +28,13 @@
       "@we-make-websites/ui-lib": ["../../../packages/ui-lib/src/index"],
       "@we-make-websites/core-lib/*": ["../../../packages/core-lib/src/*"],
       "@we-make-websites/core-lib": ["../../../packages/core-lib/src/index"],
-      "@we-make-websites/api-gateway": [
-        "../../../packages/api-gateway/src/index"
-      ],
-      "@we-make-websites/db-main-prisma": [
-        "../../../packages/db-main-prisma/src/index"
-      ],
       "@we-make-websites/ts-utils": ["../../../packages/ts-utils/src/index"]
-    }
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "exclude": ["**/node_modules", "**/.*/"],
   "include": [
@@ -48,6 +46,7 @@
     "**/*.cjs",
     "**/*.mjs",
     "**/*.jsx",
-    "**/*.json"
+    "**/*.json",
+    ".next/types/**/*.ts"
   ]
 }

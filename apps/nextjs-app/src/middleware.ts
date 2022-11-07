@@ -1,12 +1,17 @@
-import { withAuth } from 'next-auth/middleware';
+import type { NextRequest } from 'next/server';
+import { NextResponse } from 'next/server';
 
-export default withAuth({
-  callbacks: {
-    authorized: ({ req, token }) => {
-      // admin requires admin role, but /me only requires the user to be logged in.
-      return req.nextUrl.pathname !== '/admin' || token?.role === 'admin';
-    },
-  },
-});
+export function middleware(req: NextRequest) {
+  const { nextUrl: url, geo, ip } = req;
+  const country = geo?.country ?? 'US';
+  const city = geo?.city ?? 'San Francisco';
+  const region = geo?.region ?? 'CA';
+  const originIP = ip ?? '0.0.0.0';
 
-export const config = { matcher: ['/admin', '/me'] };
+  url.searchParams.set('country', country);
+  url.searchParams.set('city', city);
+  url.searchParams.set('region', region);
+  url.searchParams.set('origin-ip', originIP);
+
+  return NextResponse.rewrite(url);
+}
