@@ -1,7 +1,7 @@
-import { gql } from 'graphql-request';
+import { graphql } from '@/lib/gql';
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
-export const PRODUCT_VARIANT_FIELDS = gql`
+export const PRODUCT_VARIANT_FIELDS = graphql(/* GraphQL */ `
   fragment ProductVariantFields on ProductVariant {
     availableForSale
     compareAtPriceV2 {
@@ -26,4 +26,4 @@ export const PRODUCT_VARIANT_FIELDS = gql`
     }
     title
   }
-`;
+`);

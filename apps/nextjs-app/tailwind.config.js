@@ -1,6 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 const sharedTheme = require('./src/themes/tailwind/tailwind.theme');
-const { tailwindV3Colors } = require('./src/themes/shared/colors');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -10,7 +9,6 @@ module.exports = {
       ...defaultTheme.screens,
     },
     colors: {
-      ...tailwindV3Colors,
       bermuda: '#78dcca',
       tahiti: {
         100: '#cffafe',

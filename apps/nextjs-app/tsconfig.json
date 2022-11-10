@@ -12,9 +12,11 @@
       "@/test-utils": ["../config/tests/test-utils"],
       "@/config/*": ["./config/*"],
       "@/lib/*": ["./lib/*"],
+      "@/graphql/*": ["./graphql/*"],
       "@/components/*": ["./components/*"],
       "@/backend/*": ["./backend/*"],
       "@/features/*": ["./features/*"],
+      "@/app/*": ["./app/*"],
       "@/pages/*": ["./pages/*"],
       "@/public/*": ["../public/*"],
       "@/themes/*": ["./themes/*"],
@@ -36,7 +38,7 @@
       }
     ]
   },
-  "exclude": ["**/node_modules", "**/.*/"],
+  "exclude": ["**/node_modules", "**/.*/", "**/gql"],
   "include": [
     "next-env.d.ts",
     "**/*.ts",
